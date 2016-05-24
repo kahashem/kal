@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'simple_form'
 
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
