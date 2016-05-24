@@ -29,8 +29,22 @@
 	<hr />
 
 	<br class="clear" />
+<div class="container">
+	<%= yield %>
+</div>
 
-<%= yield %>
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+		<%= link_to "This isn't enough, I need more!", "#", class: 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">
+		Prouldy hacked in Doha, Qatar by <a href="http://thefirehoseproject.com">Khalid</a><br />
+		Want to build your own Splurty web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+		</div>
+	</div>
+</div>
+
 
 </body>
 </html>
